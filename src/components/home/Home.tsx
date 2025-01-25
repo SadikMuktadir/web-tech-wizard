@@ -1,9 +1,16 @@
-import { Button } from "../ui/button";
+import { AppSidebar } from "@/shadcn/app-sidebar";
+import { SidebarProvider, SidebarTrigger } from "../ui/sidebar";
 
-const Home = () => {
+const Home = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <Button>Click me</Button>
+      <SidebarProvider>
+        <AppSidebar />
+        <main>
+          <SidebarTrigger />
+          {children}
+        </main>
+      </SidebarProvider>
     </div>
   );
 };
