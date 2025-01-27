@@ -3,7 +3,10 @@ import DarkMode from "./DarkMode";
 const RightSection = () => {
   return (
     <div>
-      <DarkMode></DarkMode>
+      <div>
+        <h1>Hi</h1>
+        <DarkMode></DarkMode>
+      </div>
     </div>
   );
 };

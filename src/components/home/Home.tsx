@@ -5,7 +5,7 @@ import RightSection from "./rightSection/RightSection";
 const Home = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex">
-      <div className="w-[30%]">
+      <div className="">
         <SidebarProvider>
           <AppSidebar />
           <main>
@@ -14,7 +14,7 @@ const Home = ({ children }: { children: React.ReactNode }) => {
           </main>
         </SidebarProvider>
       </div>
-      <div className="w-[70%]">
+      <div className="w-full pr-5">
         <RightSection></RightSection>
       </div>
     </div>
