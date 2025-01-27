@@ -1,7 +1,7 @@
 const Blogs = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center bg-gray-100 min-h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
           <img
             src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606"

@@ -7,7 +7,7 @@ import Services from "./Services";
 const RightSection = () => {
   return (
     <div>
-      <div>
+      <div className="fixed top-0 left-0">
         <DarkMode></DarkMode>
       </div>
       <div id="home">
