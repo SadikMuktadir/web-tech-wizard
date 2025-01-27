@@ -8,34 +8,29 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
+import { Blocks, BookOpen, Headset, Home } from "lucide-react";
 
 // Menu items.
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "#home",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
+    title: "Services",
+    url: "#services",
+    icon: Blocks,
   },
   {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
+    title: "Blogs",
+    url: "#blogs",
+    icon: BookOpen,
   },
   {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
+    title: "Contact Us",
+    url: "#contactUs",
+    icon: Headset,
   },
 ];
 
