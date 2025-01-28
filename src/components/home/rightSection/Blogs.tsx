@@ -2,7 +2,7 @@ const Blogs = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-7xl w-full">
           <img
             src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606"
             alt="Mountain"

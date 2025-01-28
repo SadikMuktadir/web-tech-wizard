@@ -1,14 +1,16 @@
 const BannerSection = () => {
   return (
     <div>
-      <div className="font-sans max-w-6xl max-md:max-w-md mx-auto">
+      <div className="font-sans max-w-7xl max-md:max-w-md mx-auto">
         <div className="grid md:grid-cols-2 items-center md:gap-8 gap-6">
           <div className="max-md:order-1 max-md:text-center z-50 relative">
             <h2 className="text-gray-800 lg:text-6xl md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[56px]">
-              <span className="text-blue-600">Smart</span> Business with{" "}
-              <span className="text-blue-600">Smart</span> People
+              <span className="text-blue-600">Smart</span>{" "}
+              <span className="dark:text-gray-300">Business with</span>{" "}
+              <span className="dark:text-gray-300">Smart</span>{" "}
+              <span className="text-blue-600">People</span>
             </h2>
-            <p className="text-gray-600 mt-6 text-base leading-relaxed">
+            <p className="text-gray-600 mt-6 text-base leading-relaxed dark:text-gray-300">
               Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla
               officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad
               tempor ut reprehenderit.
@@ -24,22 +26,34 @@ const BannerSection = () => {
             <div className="mt-12">
               <div className="grid sm:grid-cols-3 gap-4 items-center">
                 <div className="flex flex-col items-center text-center">
-                  <h5 className="text-gray-800 font-bold text-xl mb-2">10+</h5>
-                  <p className="text-gray-600">Years Experience</p>
+                  <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
+                    10+
+                  </h5>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Years Experience
+                  </p>
                 </div>
                 <div className="flex flex-col items-center text-center">
-                  <h5 className="text-gray-800 font-bold text-xl mb-2">890</h5>
-                  <p className="text-gray-600">Cases Solved</p>
+                  <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
+                    890
+                  </h5>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Cases Solved
+                  </p>
                 </div>
                 <div className="flex flex-col items-center text-center">
-                  <h5 className="text-gray-800 font-bold text-xl mb-2">250</h5>
-                  <p className="text-gray-600">Business Partners</p>
+                  <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
+                    250
+                  </h5>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Business Partners
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="lg:h-[550px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:bg-[#DEE2E5] before:h-[120%] before:w-[120%] before:right-0 before:z-0">
+          <div className="lg:h-[550px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:h-[120%] before:w-[120%] before:right-0 before:z-0 ">
             <img
               src="https://readymadeui.com/team-3.webp"
               className="rounded-md lg:w-4/5 z-50 relative"
