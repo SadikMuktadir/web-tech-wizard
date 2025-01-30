@@ -185,26 +185,26 @@ const ContactUs = () => {
             <input
               type="text"
               placeholder="Name"
-              className="w-full text-black dark:text-white rounded-md py-2.5 px-4 border text-sm outline-none focus:border-black"
+              className="w-full text-black dark:text-white rounded-md py-2.5 px-4 border text-sm outline-none focus:border-black dark:bg-black"
             />
             <input
               type="email"
               placeholder="Email"
-              className="w-full text-black dark:text-white rounded-md py-2.5 px-4 border text-sm outline-none focus:border-black"
+              className="w-full text-black dark:text-white rounded-md py-2.5 px-4 border text-sm outline-none focus:border-black dark:bg-black"
             />
             <input
               type="text"
               placeholder="Subject"
-              className="w-full text-black dark:text-white rounded-md py-2.5 px-4 border text-sm outline-none focus:border-black"
+              className="w-full text-black dark:text-white rounded-md py-2.5 px-4 border text-sm outline-none focus:border-black dark:bg-black"
             />
             <textarea
               placeholder="Message"
               rows={6}
-              className="w-full text-black dark:text-white rounded-md px-4 border text-sm pt-2.5 outline-none focus:border-black"
+              className="w-full text-black dark:text-white rounded-md px-4 border text-sm pt-2.5 outline-none focus:border-black dark:bg-black"
             ></textarea>
             <button
               type="button"
-              className="text-white dark:text-black dark:text-white bg-black dark:bg-white rounded-md text-sm px-4 py-2.5 w-full !mt-6"
+              className="text-white dark:text-black bg-black dark:bg-white rounded-md text-sm px-4 py-2.5 w-full !mt-6"
             >
               Send
             </button>

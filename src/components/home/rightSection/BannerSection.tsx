@@ -1,7 +1,7 @@
 const BannerSection = () => {
   return (
     <div>
-      <div className="font-sans max-w-7xl max-md:max-w-md mx-auto">
+      <div className="font-sans max-w-7xl max-md:max-w-md mx-auto ">
         <div className="grid md:grid-cols-2 items-center md:gap-8 gap-6">
           <div className="max-md:order-1 max-md:text-center z-50 relative">
             <h2 className="text-gray-800 lg:text-6xl md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[56px]">
@@ -35,7 +35,7 @@ const BannerSection = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
-                    890
+                    890+
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
                     Cases Solved
@@ -43,7 +43,7 @@ const BannerSection = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
-                    250
+                    250+
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
                     Business Partners
@@ -53,7 +53,7 @@ const BannerSection = () => {
             </div>
           </div>
 
-          <div className="lg:h-[550px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:h-[120%] before:w-[120%] before:right-0 before:z-0 ">
+          <div className="lg:h-[550px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:h-[120%] before:right-0 before:z-0 ">
             <img
               src="https://readymadeui.com/team-3.webp"
               className="rounded-md lg:w-4/5 z-50 relative"
@@ -63,11 +63,11 @@ const BannerSection = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-4 z-50 relative md:px-4 max-md:mt-12 mb-12">
-          <div className="bg-white p-6 shadow rounded-md">
+          <div className="bg-white dark:bg-black p-6 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              className="w-11 h-11 mb-4 inline-block bg-blue-100 p-3 rounded-md"
+              className="w-11 h-11 mb-4 inline-block p-3 rounded-md fill-black dark:fill-white border border-gray-300 hover:border-gray-100"
               viewBox="0 0 32 32"
             >
               <path
@@ -79,10 +79,10 @@ const BannerSection = () => {
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-gray-800 text-xl font-bold mb-2">
+            <h3 className="text-gray-800 text-xl font-bold mb-2 dark:text-gray-300">
               Customization
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-300">
               Tailor our product to suit your needs.
             </p>
             <a
@@ -92,11 +92,11 @@ const BannerSection = () => {
               Learn more
             </a>
           </div>
-          <div className="bg-white p-6 shadow rounded-md">
+          <div className="bg-white dark:bg-black p-6 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              className="w-11 h-11 mb-4 inline-block bg-blue-100 p-3 rounded-md"
+              className="w-11 h-11 mb-4 inline-block p-3 rounded-md fill-black dark:fill-white border border-gray-300 hover:border-gray-100"
               viewBox="0 0 512.001 512.001"
             >
               <path
@@ -104,8 +104,10 @@ const BannerSection = () => {
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-gray-800 text-xl font-bold mb-2">Support</h3>
-            <p className="text-sm text-gray-600">
+            <h3 className="text-gray-800 text-xl font-bold mb-2 dark:text-gray-300">
+              Support
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-300">
               24/7 customer support for all your inquiries.
             </p>
             <a
@@ -115,11 +117,11 @@ const BannerSection = () => {
               Learn more
             </a>
           </div>
-          <div className="bg-white p-6 shadow rounded-md">
+          <div className="bg-white dark:bg-black p-6 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              className="w-11 h-11 mb-4 inline-block bg-blue-100 p-3 rounded-md"
+              className="w-11 h-11 mb-4 inline-block p-3 rounded-md fill-black dark:fill-white border border-gray-300 hover:border-gray-100"
               viewBox="0 0 24 24"
             >
               <g fill-rule="evenodd" clip-rule="evenodd">
@@ -137,10 +139,10 @@ const BannerSection = () => {
                 />
               </g>
             </svg>
-            <h3 className="text-gray-800 text-xl font-bold mb-2">
+            <h3 className="text-gray-800 text-xl font-bold mb-2 dark:text-gray-300">
               Performance
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-300">
               Experience blazing-fast performance with our product.
             </p>
             <a
