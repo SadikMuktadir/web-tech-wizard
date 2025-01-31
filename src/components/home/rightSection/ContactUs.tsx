@@ -5,7 +5,7 @@ const ContactUs = () => {
         <div className="grid sm:grid-cols-2 items-start gap-12 p-8 mx-auto max-w-7xl bg-white dark:bg-black shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md font-[sans-serif]">
           <div>
             <h1 className="text-black dark:text-white text-3xl font-bold">
-              Let's Talk
+              <span className="text-blue-600">Let's</span> Talk
             </h1>
             <p className="text-sm text-black dark:text-white mt-4">
               Have some big idea or brand to develop and need help? Then reach
@@ -204,7 +204,7 @@ const ContactUs = () => {
             ></textarea>
             <button
               type="button"
-              className="text-white dark:text-black bg-black dark:bg-white rounded-md text-sm px-4 py-2.5 w-full !mt-6"
+              className="w-full mt-6 bg-blue-600 hover:bg-transparent hover:text-blue-600 border-2 border-blue-600 transition-all text-white font-semibold text-sm tracking-wide rounded-md px-6 py-2.5"
             >
               Send
             </button>

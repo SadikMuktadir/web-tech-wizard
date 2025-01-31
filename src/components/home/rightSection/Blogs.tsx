@@ -2,6 +2,11 @@ const Blogs = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center min-h-screen">
+        <div className="mb-10 mx-auto flex max-w-7xl flex-col items-center space-y-4 text-center">
+          <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-blue-600">
+            Blogs
+          </h2>
+        </div>
         <div className="shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] bg-white dark:bg-black rounded-lg shadow-lg overflow-hidden max-w-7xl w-full">
           <img
             src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606"
