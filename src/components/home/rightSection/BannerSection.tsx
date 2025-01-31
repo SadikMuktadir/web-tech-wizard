@@ -2,18 +2,25 @@ const BannerSection = () => {
   return (
     <div>
       <div className="font-sans max-w-7xl max-md:max-w-md mx-auto ">
-        <div className="grid md:grid-cols-2 items-center md:gap-8 gap-6">
+        <div className="my-5 grid md:grid-cols-2 items-center md:gap-8 gap-6">
           <div className="max-md:order-1 max-md:text-center z-50 relative">
-            <h2 className="text-gray-800 lg:text-6xl md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[56px]">
-              <span className="text-blue-600">Smart</span>{" "}
-              <span className="dark:text-gray-300">Business with</span>{" "}
-              <span className="dark:text-gray-300">Smart</span>{" "}
-              <span className="text-blue-600">People</span>
+            <h2 className="text-gray-800 lg:text-4xl md:text-3xl text-2xl font-extrabold mb-4 md:!leading-[56px]">
+              <span className="text-blue-600">Experienced </span>{" "}
+              <span className="dark:text-gray-300">
+                Experts Delivering Exceptional Results in
+              </span>{" "}
+              <span className="text-blue-600">
+                Mobile & Web Applications, SEO, Graphics Design, and Automation
+              </span>
             </h2>
             <p className="text-gray-600 mt-6 text-base leading-relaxed dark:text-gray-300">
-              Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla
-              officia ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad
-              tempor ut reprehenderit.
+              Web Tech Wizard is a team of skilled developers with extensive
+              experience in mobile and web applications, SEO, graphics design,
+              and automation. With a proven track record of delivering numerous
+              successful projects, we specialize in crafting cutting-edge mobile
+              apps for Android and iOS, designing dynamic, user-friendly
+              websites, creating impactful graphics, and streamlining business
+              processes with tailored automation solutions.{" "}
             </p>
 
             <button
@@ -27,7 +34,7 @@ const BannerSection = () => {
               <div className="grid sm:grid-cols-3 gap-4 items-center">
                 <div className="flex flex-col items-center text-center">
                   <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
-                    10+
+                    5+
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
                     Years Experience
@@ -35,7 +42,7 @@ const BannerSection = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
-                    890+
+                    300+
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
                     Cases Solved
@@ -43,7 +50,7 @@ const BannerSection = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <h5 className="text-gray-800 font-bold text-xl mb-2 dark:text-gray-300">
-                    250+
+                    20+
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
                     Business Partners
@@ -55,14 +62,14 @@ const BannerSection = () => {
 
           <div className="lg:h-[550px] md:h-[550px] flex items-center relative max-md:before:hidden before:absolute before:h-[120%] before:right-0 before:z-0 ">
             <img
-              src="https://readymadeui.com/team-3.webp"
+              src="https://i.ibb.co/rdX7M3Z/Group-6.png"
               className="rounded-md lg:w-4/5 z-50 relative"
               alt="Dining Experience"
             />
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-4 z-50 relative md:px-4 max-md:mt-12 mb-12">
+        <div className="my-20 grid md:grid-cols-3 gap-4 z-50 relative md:px-4 max-md:mt-12 mb-12">
           <div className="bg-white dark:bg-black p-6 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -85,12 +92,6 @@ const BannerSection = () => {
             <p className="text-sm text-gray-600 dark:text-gray-300">
               Tailor our product to suit your needs.
             </p>
-            <a
-              href="javascript:void(0);"
-              className="text-blue-600 font-bold inline-block text-sm hover:underline mt-4"
-            >
-              Learn more
-            </a>
           </div>
           <div className="bg-white dark:bg-black p-6 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md">
             <svg
@@ -110,12 +111,6 @@ const BannerSection = () => {
             <p className="text-sm text-gray-600 dark:text-gray-300">
               24/7 customer support for all your inquiries.
             </p>
-            <a
-              href="javascript:void(0);"
-              className="text-blue-600 font-bold inline-block text-sm hover:underline mt-4"
-            >
-              Learn more
-            </a>
           </div>
           <div className="bg-white dark:bg-black p-6 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] dark:shadow-[0_2px_10px_-3px_rgba(6,81,237,0.8)] rounded-md">
             <svg
@@ -145,12 +140,6 @@ const BannerSection = () => {
             <p className="text-sm text-gray-600 dark:text-gray-300">
               Experience blazing-fast performance with our product.
             </p>
-            <a
-              href="javascript:void(0);"
-              className="text-blue-600 font-bold inline-block text-sm hover:underline mt-4"
-            >
-              Learn more
-            </a>
           </div>
         </div>
       </div>

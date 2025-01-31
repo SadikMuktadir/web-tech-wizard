@@ -6,7 +6,7 @@ import Services from "./Services";
 
 const RightSection = () => {
   return (
-    <div>
+    <div className="p-5 mx-auto">
       <div className="">
         <DarkMode></DarkMode>
       </div>

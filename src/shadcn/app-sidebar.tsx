@@ -39,7 +39,11 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <div>
+            <SidebarGroupLabel className="my-5 text-[20px] font-extrabold text-black dark:text-gray-300">
+              <span className="mr-2 text-blue-600">WebTech </span> Wizard
+            </SidebarGroupLabel>
+          </div>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (

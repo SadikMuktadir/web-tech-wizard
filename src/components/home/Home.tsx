@@ -9,7 +9,7 @@ const Home = ({ children }: { children: React.ReactNode }) => {
         <SidebarProvider>
           <AppSidebar />
           <main>
-            <SidebarTrigger />
+            <SidebarTrigger className="fixed" />
             {children}
           </main>
         </SidebarProvider>
