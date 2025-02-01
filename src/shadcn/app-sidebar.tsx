@@ -8,7 +8,14 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { Blocks, BookOpen, Headset, Home } from "lucide-react";
+import {
+  Blocks,
+  BookOpen,
+  Headset,
+  Home,
+  MessageCircleQuestion,
+  Pyramid,
+} from "lucide-react";
 
 // Menu items.
 const items = [
@@ -23,9 +30,19 @@ const items = [
     icon: Blocks,
   },
   {
+    title: "Projects",
+    url: "#projects",
+    icon: Pyramid,
+  },
+  {
     title: "Blogs",
     url: "#blogs",
     icon: BookOpen,
+  },
+  {
+    title: "FAQS",
+    url: "#faqs",
+    icon: MessageCircleQuestion,
   },
   {
     title: "Contact Us",
