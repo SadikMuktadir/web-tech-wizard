@@ -17,7 +17,7 @@ const Services = () => {
         </div>
 
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div>
                 <img
@@ -35,11 +35,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div>
                 <img
-                  className="h-12 w-12 block dark:hidden"
+                  className="h-12 w-12 fill-current"
                   src="https://i.ibb.co.com/5WyFNYMs/seo.png"
                   alt="Custom Web & App Development"
                 />
@@ -53,11 +53,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div>
                 <img
-                  className="h-12 w-12 block dark:hidden"
+                  className="h-12 w-12 fill-current"
                   src="https://i.ibb.co.com/N2Byk85G/idea-1.png"
                   alt="Custom Web & App Development"
                 />
@@ -71,11 +71,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div>
                 <img
-                  className="h-12 w-12 block dark:hidden"
+                  className="h-12 w-12 fill-current"
                   src="https://i.ibb.co.com/GQS8M0nS/intelligence.png"
                   alt="Custom Web & App Development"
                 />
@@ -89,11 +89,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div>
                 <img
-                  className="h-12 w-12 block dark:hidden"
+                  className="h-12 w-12 fill-current"
                   src="https://i.ibb.co.com/HL4bPy3k/deadline.png"
                   alt="Custom Web & App Development"
                 />
@@ -107,11 +107,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
             <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
               <div>
                 <img
-                  className="h-12 w-12 block dark:hidden"
+                  className="h-12 w-12 fill-current"
                   src="https://i.ibb.co.com/LhtGTJm2/support.png"
                   alt="Custom Web & App Development"
                 />
