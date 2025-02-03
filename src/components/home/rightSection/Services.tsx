@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Services = () => {
   return (
     <div>
@@ -17,113 +19,125 @@ const Services = () => {
         </div>
 
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div>
-                <img
-                  className="h-12 w-12 fill-current"
-                  src="https://i.ibb.co.com/4nMd6nTh/app-development.png"
-                  alt=""
-                />
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-bold">Custom Web & App Development</h3>
-                <p className="text-sm text-muted-foreground">
-                  Scalable, user-friendly solutions for all platforms.
-                </p>
+          <Link to="/details/mobileAndApp">
+            <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
+              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                <div>
+                  <img
+                    className="h-12 w-12 fill-current"
+                    src="https://i.ibb.co.com/4nMd6nTh/app-development.png"
+                    alt=""
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-bold">Custom Web & App Development</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Scalable, user-friendly solutions for all platforms.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div>
-                <img
-                  className="h-12 w-12 fill-current"
-                  src="https://i.ibb.co.com/5WyFNYMs/seo.png"
-                  alt="Custom Web & App Development"
-                />
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-bold">SEO Optimization</h3>
-                <p className="text-sm text-muted-foreground">
-                  Improve rankings and drive targeted traffic.
-                </p>
+          <Link to="/details/seo">
+            <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
+              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                <div>
+                  <img
+                    className="h-12 w-12 fill-current"
+                    src="https://i.ibb.co.com/5WyFNYMs/seo.png"
+                    alt="Custom Web & App Development"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-bold">SEO Optimization</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Improve rankings and drive targeted traffic.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div>
-                <img
-                  className="h-12 w-12 fill-current"
-                  src="https://i.ibb.co.com/N2Byk85G/idea-1.png"
-                  alt="Custom Web & App Development"
-                />
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-bold">Creative Graphics Design</h3>
-                <p className="text-sm text-muted-foreground">
-                  Eye-catching visuals that strengthen your brand.
-                </p>
+          <Link to="/details/graphics">
+            <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
+              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                <div>
+                  <img
+                    className="h-12 w-12 fill-current"
+                    src="https://i.ibb.co.com/N2Byk85G/idea-1.png"
+                    alt="Custom Web & App Development"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-bold">Creative Graphics Design</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Eye-catching visuals that strengthen your brand.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div>
-                <img
-                  className="h-12 w-12 fill-current"
-                  src="https://i.ibb.co.com/GQS8M0nS/intelligence.png"
-                  alt="Custom Web & App Development"
-                />
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-bold">Business Automation</h3>
-                <p className="text-sm text-muted-foreground">
-                  Streamline operations with smart automation.
-                </p>
+          <Link to="/details/automation">
+            <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
+              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                <div>
+                  <img
+                    className="h-12 w-12 fill-current"
+                    src="https://i.ibb.co.com/GQS8M0nS/intelligence.png"
+                    alt="Custom Web & App Development"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-bold">Business Automation</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Streamline operations with smart automation.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div>
-                <img
-                  className="h-12 w-12 fill-current"
-                  src="https://i.ibb.co.com/HL4bPy3k/deadline.png"
-                  alt="Custom Web & App Development"
-                />
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-bold">Fast & Secure Solutions</h3>
-                <p className="text-sm text-muted-foreground">
-                  Optimized for speed, security, and reliability.
-                </p>
+          <Link to="/details/fastAndSecure">
+            <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
+              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                <div>
+                  <img
+                    className="h-12 w-12 fill-current"
+                    src="https://i.ibb.co.com/HL4bPy3k/deadline.png"
+                    alt="Custom Web & App Development"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-bold">Fast & Secure Solutions</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Optimized for speed, security, and reliability.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <div>
-                <img
-                  className="h-12 w-12 fill-current"
-                  src="https://i.ibb.co.com/LhtGTJm2/support.png"
-                  alt="Custom Web & App Development"
-                />
-              </div>
-              <div className="space-y-2">
-                <h3 className="font-bold">End-to-End Support</h3>
-                <p className="text-sm text-muted-foreground">
-                  From planning to launch, we’ve got you covered.
-                </p>
+          <Link to="/details/support">
+            <div className="relative overflow-hidden rounded-lg border bg-white dark:bg-[#5C7285] select-none hover:shadow hover:shadow-teal-200 p-2">
+              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+                <div>
+                  <img
+                    className="h-12 w-12 fill-current"
+                    src="https://i.ibb.co.com/LhtGTJm2/support.png"
+                    alt="Custom Web & App Development"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-bold">End-to-End Support</h3>
+                  <p className="text-sm text-muted-foreground">
+                    From planning to launch, we’ve got you covered.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
     </div>
