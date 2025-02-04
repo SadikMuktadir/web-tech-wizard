@@ -1,7 +1,7 @@
 const Support = () => {
   return (
     <div>
-      <h1>Support</h1>
+      <h1>Support me</h1>
     </div>
   );
 };
