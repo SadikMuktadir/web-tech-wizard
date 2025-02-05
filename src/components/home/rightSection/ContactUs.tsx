@@ -20,7 +20,7 @@ const ContactUs = () => {
                 <li className="flex items-center">
                   <div className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                     <a
-                      href="javascript:;"
+                      href="mailto:sadikmoktadirweb@gmail.com"
                       className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
                     >
                       <svg
@@ -54,11 +54,11 @@ const ContactUs = () => {
                     </a>
                   </div>
                   <a
-                    href="javascript:void(0)"
+                    href="mailto:sadikmoktadirweb@gmail.com"
                     className="text-black dark:text-white text-sm ml-4"
                   >
                     <small className="block">Mail</small>
-                    <strong>info@example.com</strong>
+                    <strong>sadikmoktadirweb@gmail.com</strong>
                   </a>
                 </li>
               </ul>
@@ -72,7 +72,7 @@ const ContactUs = () => {
               <ul className="flex mt-4 space-x-4">
                 <li className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                   <a
-                    href="https://www.linkedin.com/in/borhan-uddin-rabbani"
+                    href="facebook"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -93,7 +93,7 @@ const ContactUs = () => {
                 </li>
                 <li className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                   <a
-                    href="https://www.linkedin.com/in/borhan-uddin-rabbani"
+                    href="instagram"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -114,7 +114,7 @@ const ContactUs = () => {
                 </li>
                 <li className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                   <a
-                    href="https://www.linkedin.com/in/borhan-uddin-rabbani"
+                    href="twteer"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -135,7 +135,7 @@ const ContactUs = () => {
                 </li>
                 <li className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                   <a
-                    href="https://www.linkedin.com/in/borhan-uddin-rabbani"
+                    href="linkedin"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -156,7 +156,7 @@ const ContactUs = () => {
                 </li>
                 <li className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                   <a
-                    href="https://www.linkedin.com/in/borhan-uddin-rabbani"
+                    href="https://youtube.com/@webwizard-rq9rh?feature=shared"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"

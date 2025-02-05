@@ -6,7 +6,7 @@ import MobileAndApp from "../home/detailsSection/MobileAndApp";
 import Seo from "../home/detailsSection/Seo";
 import GraphicsDesign from "../home/detailsSection/GraphicsDesign";
 import AutoMation from "../home/detailsSection/AutoMation";
-import FastAndSecure from "../home/detailsSection/FastAndSecure";
+import FastAndSecure from "../home/detailsSection/LeadGeneration";
 import Support from "../home/detailsSection/Support";
 const router = createBrowserRouter([
   {

@@ -105,14 +105,15 @@ const Services = () => {
                 <div>
                   <img
                     className="h-12 w-12 fill-current"
-                    src="https://i.ibb.co.com/HL4bPy3k/deadline.png"
+                    src="https://i.ibb.co.com/nND8Z0pn/4118461.png"
                     alt="Custom Web & App Development"
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold">Fast & Secure Solutions</h3>
+                  <h3 className="font-bold">B2B Lead Generation</h3>
                   <p className="text-sm text-muted-foreground">
-                    Optimized for speed, security, and reliability.
+                    Find high-quality leads and drive business growth with
+                    targeted prospecting.
                   </p>
                 </div>
               </div>
